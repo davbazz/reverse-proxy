@@ -1,0 +1,13 @@
+####
+get http://localhost:3000/
+
+####
+get http://localhost:3000/check-symbol
+Content-Type: application/json
+
+####
+get http://localhost:3000/quote-default-stocks
+
+####
+get http://localhost:3000/news
+Content-Type: application/json
